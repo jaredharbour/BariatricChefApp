@@ -1,0 +1,16 @@
+@BariatricChefApp.Api_HostAddress = http://localhost:5103
+
+GET {{BariatricChefApp.Api_HostAddress}}/api/nutrition/stages
+Accept: application/json
+
+###
+
+GET {{BariatricChefApp.Api_HostAddress}}/api/recipes?stage=Stage3_Pureed
+Accept: application/json
+
+###
+
+GET {{BariatricChefApp.Api_HostAddress}}/api/user/profile
+Accept: application/json
+
+###

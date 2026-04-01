@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C8A924A-13DE-4F40-85B1-2316147D3824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BariatricChefApp.Core", "src\BariatricChefApp.Core\BariatricChefApp.Core.csproj", "{BD70A029-4E06-4B14-9C43-9E4A99A7BF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BariatricChefApp.Api", "src\BariatricChefApp.Api\BariatricChefApp.Api.csproj", "{BE3F0A31-A82A-43B5-B4ED-B5E7EC8C8EC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{70B3CEA4-3C0F-40C8-8D68-DA92A57A1418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BariatricChefApp.Core.Tests", "tests\BariatricChefApp.Core.Tests\BariatricChefApp.Core.Tests.csproj", "{BAED6E67-77C5-49F1-A9CD-7E20F5FC5521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BariatricChefApp.Api.Tests", "tests\BariatricChefApp.Api.Tests\BariatricChefApp.Api.Tests.csproj", "{8B13CEE8-8408-4588-9877-FD5FF874B46D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD70A029-4E06-4B14-9C43-9E4A99A7BF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD70A029-4E06-4B14-9C43-9E4A99A7BF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD70A029-4E06-4B14-9C43-9E4A99A7BF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD70A029-4E06-4B14-9C43-9E4A99A7BF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3F0A31-A82A-43B5-B4ED-B5E7EC8C8EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3F0A31-A82A-43B5-B4ED-B5E7EC8C8EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3F0A31-A82A-43B5-B4ED-B5E7EC8C8EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3F0A31-A82A-43B5-B4ED-B5E7EC8C8EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAED6E67-77C5-49F1-A9CD-7E20F5FC5521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAED6E67-77C5-49F1-A9CD-7E20F5FC5521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAED6E67-77C5-49F1-A9CD-7E20F5FC5521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAED6E67-77C5-49F1-A9CD-7E20F5FC5521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B13CEE8-8408-4588-9877-FD5FF874B46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B13CEE8-8408-4588-9877-FD5FF874B46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B13CEE8-8408-4588-9877-FD5FF874B46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B13CEE8-8408-4588-9877-FD5FF874B46D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD70A029-4E06-4B14-9C43-9E4A99A7BF8A} = {3C8A924A-13DE-4F40-85B1-2316147D3824}
+		{BE3F0A31-A82A-43B5-B4ED-B5E7EC8C8EC8} = {3C8A924A-13DE-4F40-85B1-2316147D3824}
+		{BAED6E67-77C5-49F1-A9CD-7E20F5FC5521} = {70B3CEA4-3C0F-40C8-8D68-DA92A57A1418}
+		{8B13CEE8-8408-4588-9877-FD5FF874B46D} = {70B3CEA4-3C0F-40C8-8D68-DA92A57A1418}
+	EndGlobalSection
+EndGlobal
